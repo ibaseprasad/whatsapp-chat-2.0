@@ -1,0 +1,47 @@
+.wac-admin .wac-schedule {
+    margin-top: 1rem;
+}
+
+.wac-admin .wac-schedule th,
+.wac-admin .wac-schedule td {
+    text-align: left;
+    vertical-align: middle;
+}
+
+#wac-agent-repeater {
+    margin-top: 1rem;
+}
+
+#wac-agent-repeater .wac-agent-row {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr)) auto;
+    gap: 1rem;
+    align-items: end;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background: #fff;
+    border: 1px solid #dcdcde;
+    border-radius: 6px;
+}
+
+#wac-agent-repeater .wac-field span {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+#wac-agent-repeater .wac-remove-agent {
+    color: #b32d2e;
+    font-size: 1.5rem;
+    padding: 0;
+    line-height: 1;
+    text-decoration: none;
+}
+
+#wac-agent-repeater .wac-remove-agent:hover {
+    color: #8a1f20;
+}
+
+.wac-admin .wac-gdpr {
+    margin-top: 1rem;
+}
